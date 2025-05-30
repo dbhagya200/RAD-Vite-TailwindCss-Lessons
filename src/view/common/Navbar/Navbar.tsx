@@ -1,18 +1,18 @@
 
-import {Link} from "react-rout-dom";
+import {Link} from "react-router-dom";
 import logo from "../../../assets/icons8-logo-48.png";
 export function Navbar() {
     return (
         <>
-            <section className='nav'>
+            <section className='sticky top-0  '>
                 <div>
-                    <nav className='navbar'>
-                        <div className='logo'>
+                    <nav className="flex justify-between bg-[#114253] text-white px-[30px] py-[10px]">
+                        <div className='flex justify-start items-center text-xl'>
                             <img src={logo} alt="" />
                             <p className="name">Ride Share</p>
                         </div>
                         <div className='menu'>
-                            <ul className='list'>
+                            <ul className='flex list-none gap-x-[50px] gap-y-[10px] p-[5px]'>
                                 <li>
                                     <Link to="/">Home</Link>
                                 </li>
@@ -29,7 +29,7 @@ export function Navbar() {
                                     <Link to="/contact">Contact</Link>
                                 </li>
                                 <li>
-                                    <button className="sign">
+                                    <button className="bg-teal-500 w-[100px] h-[30px] rounded-2xl">
                                         <Link to="/login">
                                             Sign In
                                         </Link>
