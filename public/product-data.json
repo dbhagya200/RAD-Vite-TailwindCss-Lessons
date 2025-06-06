@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "BMW Sports",
+    "price": "250000000",
+    "currency": "LKR",
+    "image": "tesla-model.png"
+  },
+  {
+    "id": 2,
+    "name": "BMW Sports",
+    "price": "250000000",
+    "currency": "LKR",
+    "image": "car-1.png"
+  },
+  {
+    "id": 3,
+    "name": "BMW Sports",
+    "price": "250000000",
+    "currency": "LKR",
+    "image": "car-2.png"
+  }
+]
